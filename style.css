@@ -1,0 +1,42 @@
+label{
+    color: white;
+    width: 100%;
+    text-align: right;
+}
+fieldset{
+
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.Knev{
+    width: 60px;
+}
+.Vnev{
+    width: 100px;
+}
+.datum{
+    width: 150px;
+}
+form{
+    vertical-align: middle;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.submit{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    fieldset{
+        grid-template-columns: 1fr;
+    }
+    label{
+        color: white;
+        width: 100%;
+        text-align: left;
+    }
+}
+
